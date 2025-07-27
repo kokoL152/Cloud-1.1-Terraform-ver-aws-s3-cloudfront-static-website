@@ -1,0 +1,11 @@
+# Terraform files
+.terraform/           # Ignore Terraform working directory
+*.tfstate             # Ignore Terraform state files
+*.tfstate.backup      # Ignore Terraform state backups
+.terraform.lock.hcl   # Ignore dependency lock file (optional, but common)
+.terraformrc          # Ignore Terraform RC file (if you have one)
+
+# Local development and OS files
+.DS_Store             # macOS directory service store
+*.log                 # Log files
+*.override.tf         # Ignore override files if used for local dev
